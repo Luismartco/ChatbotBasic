@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar el dataset
-dataset = pd.read_csv('/content/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv')
+dataset = pd.read_csv('Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv')
 
 # Mostrar las primeras filas del dataset para entender su estructura
 print(dataset.head())
